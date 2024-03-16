@@ -37,3 +37,8 @@ const getQuotes = async () => {
   await browser.close();
 };
 getQuotes();
+
+// find knowledge section on Odin page
+// scrape all questions (li items)
+
+//next:
