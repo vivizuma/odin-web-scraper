@@ -1,11 +1,17 @@
 import puppeteer from "puppeteer";
+import fs from "fs";
+
+// start puppeteer
+// navigate to sitemap.xml
+// parse to text
+// extract urls and add to an array
 
 const url =
   "https://www.theodinproject.com/lessons/node-path-javascript-asynchronous-code/";
 const getQuestions = async (url) => {
   // await for browser to load
   const browser = await puppeteer.launch({
-    headless: false,
+    headless: true,
     defaultViewport: null,
   });
 
@@ -14,13 +20,16 @@ const getQuestions = async (url) => {
   //navigate to odin project page
   await page.goto(url, { waitUntil: "domcontentloaded" });
   console.log("page laoded");
+
+  // get title
   const title = await page.evaluate(() => {
     const titleText = document.querySelector(
       '[data-test-id="lesson-title-header"]'
     ).innerText;
     return { titleText };
   });
-
+  console.log(title.titleText);
+  // get questions
   const questionSection = await page.evaluate(() => {
     const list = document.querySelector("#knowledge-check ul");
     const questions = [];
@@ -32,13 +41,21 @@ const getQuestions = async (url) => {
     list.querySelectorAll("li").forEach((item) => {
       questions.push(item.innerText);
     });
-    console.log(listItems);
-    console.log(list);
-    questions.push("hello");
-    console.log(questions);
-    return { questions, list, listItems };
+
+    return { questions };
   });
-  console.log(`"outside scope:"`);
+
+  await browser.close();
+  const pageData = {
+    title: title,
+    questions: questionSection,
+  };
+  return pageData;
 };
 
-getQuestions(url);
+async function getData() {
+  const data = await getQuestions();
+  console.log(data);
+}
+
+getData();
