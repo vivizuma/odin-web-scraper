@@ -37,6 +37,12 @@ const getQuotes = async () => {
   await browser.close();
 };
 getQuotes();
+//thid
+//this is a test of my touch typing ability this is a test of my typing ability this is a test of my typing abiliiy this is a test of my keyboard typing
+
+// this is a test of my keyboard
+
+// this is an exceptional keyboard. I love this split design for my shoulder posture
 
 // find knowledge section on Odin page
 // scrape all questions (li items)

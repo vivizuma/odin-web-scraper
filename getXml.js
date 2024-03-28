@@ -28,3 +28,7 @@ async function getXmlFromUrl(url) {
 }
 // your dil with you're so raven. thats so raven, it's the future i can see
 getXmlFromUrl();
+
+//hello there this is a test of my new mechanical keyboard by keychron
+//using this split layout allows my shoulders to spread wide and allows my chest to open up. this wil aid in shoulder posture and a
+// help my breathing to engage my parasympathetic nervous system
