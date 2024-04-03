@@ -3,13 +3,10 @@ import fs from "fs";
 
 import axios from "axios";
 import xml2js from "xml2js";
-const jsDataStorage = [];
+import { CLIENT_RENEG_LIMIT } from "tls";
+let browser;
 const sitemapUrl = "https://www.theodinproject.com/sitemap.xml";
-
-const demoUrl =
-  "https://www.theodinproject.com/lessons/node-path-javascript-asynchronous-code/";
-
-// get sitemap and create an array of urls
+// Returns array of lesson urls
 async function scrapeUrlsFromSitemapXml(sitemapUrl) {
   //assume sitemap url is valid
   // start puppeteer
@@ -24,7 +21,7 @@ async function scrapeUrlsFromSitemapXml(sitemapUrl) {
     // if current url is not lesson, continue
     // if it includes lesson .. push to array
     let allUrls = parsedXml.urlset.url;
-    console.log("loc", parsedXml.urlset.url[24].loc);
+
     for (let i = 0; i < allUrls.length; i++) {
       const currentUrl = parsedXml.urlset.url[i].loc[0];
       if (!currentUrl.includes(".com/lessons/")) {
@@ -41,61 +38,204 @@ async function scrapeUrlsFromSitemapXml(sitemapUrl) {
   // a fully fledged browser such as puppeteer
 }
 
-async function getDataTitleAndQuestions(urlArray) {
-  const browser = await puppeteer.launch({
+async function startPuppeteer() {
+  browser = await puppeteer.launch({
     headless: true,
   });
+}
+async function stopPuppeteer() {
+  await browser.close();
+}
 
-  const page = await browser.newPage();
-  await page.goto(urlArray, { waitUntil: "domcontentloaded" });
-  // get title
-  const title = await page.evaluate(() => {
+// Getting info
+async function getTitle(browser, pageUrl) {
+  const page = browser.newPage();
+  await page.goto(pageUrl);
+  const title = page.evaluate(() => {
     const titleText = document.querySelector(
       '[data-test-id="lesson-title-header"]'
     ).innerText;
-    return titleText;
-  });
-  const questions = await page.evaluate(() => {
-    const questionsArray = [];
-    const questionSection = document.querySelector("#knowledge-check ul");
-    // this will respond with a node list of the ul elements?
-    // we need to go deeper and select all the li elements within, and push them to an array
-    // the text content to an array, that is
-    const questionsNodeList = questionSection.querySelectorAll("li");
-    if (!questionsNodeList) {
-      return "no questions found";
+    if (titleText) {
+      return titleText;
+    } else {
+      return "Hey";
     }
-    questionsNodeList.forEach((item) => {
-      questionsArray.push(item.innerText);
-    });
-    return questionsArray;
   });
-  const dataObject = {
-    title: title,
-    questions: questions,
+  console.log(title);
+  return title;
+}
+async function getQuestions(page) {
+  return questionsList;
+}
+// Returns an object with title and questions
+async function getDataTitleAndQuestions(urlArray) {
+  const page = await browser.newPage();
+  // function to iterate through url list and append all relevant data to an object
+  let data = [];
+  const getPages = async function () {
+    for (let i = 0; i < 5; i++) {
+      const currentpage = await page.goto(urlArray[i]);
+      try {
+        //get title
+        const title = await page.evaluate(() => {
+          const titleText = document.querySelector(
+            '[data-test-id="lesson-title-header"]'
+          ).innerText;
+          if (!titleText) {
+            return "no title found";
+          } else {
+            return titleText;
+          }
+        });
+        //get questions
+        const questions = await page.evaluate(() => {
+          const questionsArray = [];
+          const questionSection = document.querySelector("#knowledge-check ul");
+          const questionsNodeList = questionSection.querySelectorAll("li");
+          if (questionsNodeList == null || questionsNodeList.length == 0) {
+            return null;
+          } else {
+            questionsNodeList.forEach((item) => {
+              questionsArray.push(item);
+            });
+            return questionsArray;
+          }
+        });
+      } catch (error) {
+        console.error(error);
+        continue;
+      }
+    }
+    return data;
   };
-  console.log(dataObject.title);
-  console.log(dataObject.questions);
-  await browser.close();
-  return { title, questions };
 }
 
-async function main(sitemapUrl) {
-  try {
-    const urlArray = await scrapeUrlsFromSitemapXml(sitemapUrl);
-    const data = await getDataTitleAndQuestions(urlArray);
-  } catch (error) {
-    console.error("err:", error);
-  }
-}
 async function storeDataAsJSON(data) {
   const jsonData = JSON.stringify(data, null, 2);
   fs.writeFileSync("data.json", jsonData);
   console.log("data stored as json lol");
 }
 
+async function getDataFromCurrentPage(currentPageUrl) {
+  // start puppeteer
+
+  const page = await browser.newPage();
+  await page.goto(currentPageUrl, {
+    waitUntil: "domcontentloaded",
+  });
+  // this works -----
+  const title = await page.evaluate(() => {
+    const titleSection = document.querySelector(
+      '[data-test-id="lesson-title-header"]'
+    ).innerText;
+    return titleSection;
+  });
+  /// this works ^^^^
+  const questions = await page.evaluate(() => {
+    /// YOU STOPPED HERE::::::::::::::::::::
+
+    const questionSection = document.querySelector("#knowledge-check ul");
+    if (!questionSection) {
+      return null;
+    } else {
+      const questionsNodeList = questionSection.querySelectorAll("li");
+      const questionsArray = Array.from(questionsNodeList);
+      const innerTextArray = questionsArray.map((item) => {
+        return item.innerText;
+      });
+      return innerTextArray;
+    }
+  });
+  const currentPageDataObject = {
+    title: title,
+    questions: questions,
+  };
+  console.log(currentPageDataObject);
+  await page.close();
+
+  // return currentpage object
+  return currentPageDataObject;
+}
+
 main(sitemapUrl);
 
-function appendToJsData(arr, dataObject) {
-  arr.push(dataObject);
+async function main(sitemapUrl) {
+  try {
+    const allDataArray = [];
+    //start browser
+    await startPuppeteer();
+    // get array of urls
+    const urls = await scrapeUrlsFromSitemapXml(sitemapUrl);
+    // return currentpage
+    for (let i = 0; i < urls.length; i++) {
+      //send current page to data extractor function
+      let currentPage = urls[i];
+      console.log(currentPage);
+      let currentPageData = await getDataFromCurrentPage(currentPage);
+
+      // push pageData to allDataArray
+      allDataArray.push(currentPageData);
+      storeDataAsJSON(allDataArray);
+      const dataAsJson = convertToJson(allDataArray);
+      console.log(dataAsJson);
+    }
+    console.log("this is the alldata", allDataArray);
+    exportJsObjectAsMarkdown(allDataArray);
+    await stopPuppeteer();
+  } catch (error) {
+    console.error("err:", error);
+  } finally {
+    await stopPuppeteer();
+  }
+}
+
+function jsonToMarkdown(jsonData) {
+  let markdown = "";
+
+  // Add title and description if available
+  if (jsonData.title) markdown += `# ${jsonData.title}\n\n`;
+  if (jsonData.description) markdown += `${jsonData.description}\n\n`;
+
+  // Iterate over items array and convert to Markdown table
+  markdown += "Knowledge Check\n";
+  markdown += "\n";
+  jsonData.items.forEach((item) => {
+    markdown += ` ${item.title}\n`;
+    markdown += `${item.questions}`;
+  });
+  console.log(markdown);
+  return markdown;
+}
+function convertToJson(data) {
+  const jsonData = JSON.stringify(data, null, 2);
+}
+
+function exportJsObjectAsMarkdown(data) {
+  data[0].questions;
+  //
+  let markdown = "# Knowledge Check\n\n";
+  for (let i = 0; i < data.length; i++) {
+    markdown += `\n\n## ${data[i].title}\n\n`;
+    if (data[i].questions === null) {
+      console.log("no questions here");
+      continue;
+    }
+    for (let j = 0; j < data[i].questions.length; j++) {
+      markdown += `* ${data[i].questions[j]}\n`;
+    }
+  }
+  console.log(markdown);
+  // export markdown as md file
+  saveStringAsMarkdownFile(markdown);
+}
+
+function saveStringAsMarkdownFile(string) {
+  const filePath = "knowledge-check.md";
+  fs.writeFile(filePath, string, (err) => {
+    if (err) {
+      console.log("Error writing file:", err);
+      return;
+    }
+    console.log("Knowledge check .md file created");
+  });
 }
