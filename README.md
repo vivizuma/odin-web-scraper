@@ -1,6 +1,6 @@
 # Odin Project Web Scraper
 
-## Gets all current "Knowledge Test" questions from the Odin Project course
+## Gets all current "Knowledge Check" questions from the Odin Project course
 
 For those of us that quickly want to test our knowledge with the knowledge check questions without having to visit every page manually.
 
