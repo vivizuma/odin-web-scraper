@@ -6,7 +6,7 @@ For those of us that quickly want to test our knowledge with the knowledge check
 
 ## How to use
 
-You can just take a look at the included knowledge-check.md for the questions. However if you would like a more up-to-date version you will have to run my web scraper... here's how you would do that
+You can just take a look at the included knowledge-check.md for the questions. However, if you would like a more up-to-date version you will have to run my web scraper... here's how you would do that
 
 ## Instructions
 
