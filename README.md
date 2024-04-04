@@ -4,11 +4,11 @@
 
 For those of us that quickly want to test our knowledge with the knowledge check questions without having to visit every page manually.
 
-##How to use
+## How to use
 
 You can just take a look at the included knowledge-check.md for the questions. However if you would like a more up-to-date version you will have to run my web scraper... here's how you would do that
 
-##Instructions
+## Instructions
 
 1. Clone the repository to your local machine
 
@@ -37,3 +37,7 @@ node getData.js
 ```
 
 5. Open knowledge-check.md and answer those questions!
+
+## Known issues
+
+Currently the script simply goes through the sitemap in the order it is presented. This means that the knowledge check questions are not entirely in the correct order. I would like to fix this at some point
