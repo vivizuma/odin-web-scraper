@@ -167,7 +167,7 @@ async function main(sitemapUrl) {
     // get array of urls
     const urls = await scrapeUrlsFromSitemapXml(sitemapUrl);
     // return currentpage
-    for (let i = 0; i < urls.length; i++) {
+    for (let i = 0; i < 2; i++) {
       //send current page to data extractor function
       let currentPage = urls[i];
       console.log(currentPage);
@@ -181,6 +181,7 @@ async function main(sitemapUrl) {
     }
     console.log("this is the alldata", allDataArray);
     exportJsObjectAsMarkdown(allDataArray);
+    urlsToMd(urls);
     await stopPuppeteer();
   } catch (error) {
     console.error("err:", error);
@@ -237,5 +238,20 @@ function saveStringAsMarkdownFile(string) {
       return;
     }
     console.log("Knowledge check .md file created");
+  });
+}
+
+function urlsToMd(urls) {
+  let markdown = "";
+  const filePath = "url-array.md";
+  for (let i = 0; i < urls.length; i++) {
+    markdown += `\n${urls[i]}\n`;
+  }
+  fs.writeFile(filePath, markdown, (err) => {
+    if (err) {
+      console.log("Error writing file:", err);
+      return;
+    }
+    console.log("array url file created");
   });
 }
