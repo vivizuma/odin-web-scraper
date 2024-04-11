@@ -3,7 +3,7 @@ import fs from "fs";
 
 import axios from "axios";
 import xml2js from "xml2js";
-import { CLIENT_RENEG_LIMIT } from "tls";
+
 let browser;
 const sitemapUrl = "https://www.theodinproject.com/sitemap.xml";
 // Returns array of lesson urls
@@ -34,8 +34,8 @@ async function scrapeUrlsFromSitemapXml(sitemapUrl) {
     console.log("error fetching sitemap xml:", error);
   }
 
-  // I will use axios instead for a simple fetch request - it will be faster and more efficient than launcing
-  // a fully fledged browser such as puppeteer
+  // I will use axios instead for a simple fetch request - it will be faster and more efficient than launching
+  // a full browser instance
 }
 
 async function startPuppeteer() {
@@ -47,93 +47,25 @@ async function stopPuppeteer() {
   await browser.close();
 }
 
-// Getting info
-async function getTitle(browser, pageUrl) {
-  const page = browser.newPage();
-  await page.goto(pageUrl);
-  const title = page.evaluate(() => {
-    const titleText = document.querySelector(
-      '[data-test-id="lesson-title-header"]'
-    ).innerText;
-    if (titleText) {
-      return titleText;
-    } else {
-      return "Hey";
-    }
-  });
-  console.log(title);
-  return title;
-}
-async function getQuestions(page) {
-  return questionsList;
-}
-// Returns an object with title and questions
-async function getDataTitleAndQuestions(urlArray) {
-  const page = await browser.newPage();
-  // function to iterate through url list and append all relevant data to an object
-  let data = [];
-  const getPages = async function () {
-    for (let i = 0; i < 5; i++) {
-      const currentpage = await page.goto(urlArray[i]);
-      try {
-        //get title
-        const title = await page.evaluate(() => {
-          const titleText = document.querySelector(
-            '[data-test-id="lesson-title-header"]'
-          ).innerText;
-          if (!titleText) {
-            return "no title found";
-          } else {
-            return titleText;
-          }
-        });
-        //get questions
-        const questions = await page.evaluate(() => {
-          const questionsArray = [];
-          const questionSection = document.querySelector("#knowledge-check ul");
-          const questionsNodeList = questionSection.querySelectorAll("li");
-          if (questionsNodeList == null || questionsNodeList.length == 0) {
-            return null;
-          } else {
-            questionsNodeList.forEach((item) => {
-              questionsArray.push(item);
-            });
-            return questionsArray;
-          }
-        });
-      } catch (error) {
-        console.error(error);
-        continue;
-      }
-    }
-    return data;
-  };
-}
-
 async function storeDataAsJSON(data) {
   const jsonData = JSON.stringify(data, null, 2);
   fs.writeFileSync("data.json", jsonData);
-  console.log("data stored as json lol");
 }
 
 async function getDataFromCurrentPage(currentPageUrl) {
-  // start puppeteer
-
   const page = await browser.newPage();
   await page.goto(currentPageUrl, {
     waitUntil: "domcontentloaded",
   });
-  // this works -----
+
   const title = await page.evaluate(() => {
     const titleSection = document.querySelector(
       '[data-test-id="lesson-title-header"]'
     ).innerText;
     return titleSection;
   });
-  /// this works ^^^^
-  const questions = await page.evaluate(() => {
-    /// YOU STOPPED HERE::::::::::::::::::::
 
+  const questions = await page.evaluate(() => {
     const questionSection = document.querySelector("#knowledge-check ul");
     if (!questionSection) {
       return null;
@@ -190,23 +122,6 @@ async function main(sitemapUrl) {
   }
 }
 
-function jsonToMarkdown(jsonData) {
-  let markdown = "";
-
-  // Add title and description if available
-  if (jsonData.title) markdown += `# ${jsonData.title}\n\n`;
-  if (jsonData.description) markdown += `${jsonData.description}\n\n`;
-
-  // Iterate over items array and convert to Markdown table
-  markdown += "Knowledge Check\n";
-  markdown += "\n";
-  jsonData.items.forEach((item) => {
-    markdown += ` ${item.title}\n`;
-    markdown += `${item.questions}`;
-  });
-  console.log(markdown);
-  return markdown;
-}
 function convertToJson(data) {
   const jsonData = JSON.stringify(data, null, 2);
 }
