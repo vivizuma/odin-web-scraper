@@ -167,7 +167,7 @@ async function main(sitemapUrl) {
     // get array of urls
     const urls = await scrapeUrlsFromSitemapXml(sitemapUrl);
     // return currentpage
-    for (let i = 0; i < 2; i++) {
+    for (let i = 0; i < urls.length; i++) {
       //send current page to data extractor function
       let currentPage = urls[i];
       console.log(currentPage);
