@@ -10,7 +10,7 @@
 
 * Why should you use Emmet?
 * What are some useful Emmet abbreviations?
-* What syntax would you use to create this element <p class="text"></p>?
+* What syntax would you use to create the element <p class="text"></p>?
 * What syntax expands to an element with a child element inside of it? For example: <div><p></p></div>
 * What syntax would you use to create three elements that have the same class name?
 
@@ -33,6 +33,7 @@
 ## Default Styles
 
 * Why would you want to use a CSS reset?
+* Are resets required?
 
 
 ## CSS Units
@@ -103,10 +104,8 @@
 
 ## Frameworks and Preprocessors
 
-* What are some advantages of using a CSS framework?
-* What are some disadvantages of using a CSS framework?
-* What are some advantages of using a CSS preprocessor?
-* What are some disadvantages of using a CSS preprocessor?
+* What are CSS frameworks?
+* What are CSS preprocessors?
 
 
 ## Form Basics
@@ -300,7 +299,7 @@
 
 * Why should you use Emmet?
 * What are some useful Emmet abbreviations?
-* What syntax would you use to create this element <p class="text"></p>?
+* What syntax would you use to create the element <p class="text"></p>?
 * What syntax expands to an element with a child element inside of it? For example: <div><p></p></div>
 * What syntax would you use to create three elements that have the same class name?
 
@@ -323,6 +322,7 @@
 ## Default Styles
 
 * Why would you want to use a CSS reset?
+* Are resets required?
 
 
 ## CSS Units
@@ -393,10 +393,8 @@
 
 ## Frameworks and Preprocessors
 
-* What are some advantages of using a CSS framework?
-* What are some disadvantages of using a CSS framework?
-* What are some advantages of using a CSS preprocessor?
-* What are some disadvantages of using a CSS preprocessor?
+* What are CSS frameworks?
+* What are CSS preprocessors?
 
 
 ## Form Basics
@@ -612,6 +610,10 @@
 
 ## What Is JSX?
 
+* What is JSX?
+* Why do we use JSX?
+* What are the three rules of JSX?
+* How do you reference a dynamic value inside of your JSX?
 
 
 ## Rendering Techniques
@@ -788,6 +790,8 @@
 
 ## How This Course Will Work
 
+* What is The Odin Project?
+* Should you skip anything in The Odin Project or complete it non-linearly?
 
 
 ## Introduction to Web Development
@@ -806,6 +810,9 @@
 
 ## Join the Odin Community
 
+* How do you join The Odin Project’s Discord server?
+* What makes a good question that’s easier for others to help with?
+* How can you more effectively help others with their coding problems?
 
 
 ## Computer Basics
@@ -832,7 +839,7 @@
 * What is a search engine?
 * What is a DNS request?
 * Which browser are you currently using?
-* In your own words, describe the process that takes place when you initiate a search on google.com in terms of what we discussed on this section.
+* In your own words, describe the process that takes place when you initiate a search on google.com in terms of what we discussed.
 
 
 ## Installation Overview
@@ -887,7 +894,7 @@
 * Explain what main is in git push origin main.
 * Explain the two-stage system that Git uses to save files.
 * How do you check the status of your current repository?
-* How do you add files to the staging area in git?
+* How do you add files to the staging area in Git?
 * How do you commit the files in the staging area and add a descriptive message?
 * How do you push your changes to your repository on GitHub?
 * How do you look at the history of your previous commits?
@@ -1034,19 +1041,23 @@
 
 ## Variables and Operators
 
-* Name the three ways to declare a variable
+* What three keywords can you use to declare new variables?
 * Which of the three variable declarations should you avoid and why?
 * What rules should you follow when naming variables?
 * What happens when you add numbers and strings together?
 * How does the Modulo (%), or Remainder, operator work?
-* Explain the difference between == and ===.
+* What’s the difference between == and ===?
 * When would you receive a NaN result?
 * How do you increment and decrement a number?
-* Explain the difference between prefixing and postfixing increment/decrement operators.
+* What’s the difference between prefixing and postfixing increment/decrement operators?
 * What is operator precedence and how is it handled in JS?
 * How do you access developer tools and the console?
 * How do you log information to the console?
 * What does unary plus operator do to string representations of integers? eg. +”10”
+
+
+## Installing Node.js
+
 
 
 ## Data Types and Conditionals
@@ -1059,7 +1070,7 @@
 * Which type of quote lets you embed variables/expressions in a string?
 * How do you embed variables/expressions in a string?
 * How do you use escape characters in a string?
-* What is the difference between the slice/substring/substr string methods?
+* What is the difference between the slice/substring string methods?
 * What are the three logical operators, and what do they stand for?
 * What are the comparison operators?
 * What are truthy and falsy values?
@@ -1087,6 +1098,7 @@
 * What is function scope?
 * What are return values?
 * What are arrow functions?
+* What is the difference between a function declaration and a function expression?
 
 
 ## Problem Solving
@@ -1114,12 +1126,8 @@
 ## Clean Code
 
 * Why is it important to write clean code?
-* Name 5 clean code principles previously mentioned
+* What are some good principles for keeping code clean?
 * What is the difference between good comments and bad comments?
-
-
-## Installing Node.js
-
 
 
 ## Arrays and Loops
@@ -1158,6 +1166,10 @@
 
 ## Revisiting Rock Paper Scissors
 
+* What are branches in git?
+* How do you create a new branch?
+* How do you merge a branch back into main?
+* What is one use case for branches?
 
 
 ## Project: Etch-a-Sketch
@@ -1168,6 +1180,7 @@
 
 * What is the difference between objects and arrays?
 * How do you access object properties?
+* How do primitives and object types differ when you assign them to other variables, or pass them into functions?
 * What is Array.prototype.map() useful for?
 * What is Array.prototype.filter() useful for?
 * What is Array.prototype.reduce() useful for?
@@ -1181,364 +1194,29 @@
 
 
 
-## How This Course Will Work
+## Databases
 
+* What is a database?
+* What are relational databases?
+* What is a Primary Key?
+* What is SQL?
+* How do you get all the records from a table in SQL?
+* How do you insert a record in SQL?
 
 
-## Installing Ruby
+## Databases and SQL
 
+* What is the difference between a foreign key and a primary key?
+* Where is the setup information for your database stored?
+* What are the important parts of a SQL command?
+* Which SQL statement is associated with “Read” from the CRUD acronym?
+* Which JOIN statement keeps only the rows from both tables where they match up?
+* How do you use an aggregate function?
+* In which situation would you use the HAVING function?
+* Why can’t I just use code to process my database data?
 
 
-## Basic Data Types
-
-* What are the basic arithmetic operators you can use on numbers?
-* What’s the difference between an integer and a float?
-* What method would you use to convert a float to an integer?
-* What method would you use to convert an integer to a float?
-* What is a string?
-* What are the differences between single and double quotes?
-* What is string interpolation?
-* How do you concatenate strings?
-* What method would you use to change all the characters in your string to upper case?
-* What method would you use to split up strings into arrays?
-* What are escape characters?
-* How do you access a specific character or substring?
-* How do you convert other data types into strings?
-* What is a symbol?
-* How do you create a symbol?
-* What’s the difference between a symbol and a string?
-* What does true represent?
-* What does false represent?
-* What does nil represent?
-
-
-## Variables
-
-* What is a variable?
-* How do you assign a value or an expression to a variable?
-* What does the += assignment operator do?
-* What does the -= assignment operator do?
-* What does the *= assignment operator do?
-* What does the /= assignment operator do?
-* What are the variable naming conventions?
-
-
-## Input and Output
-
-* What are the two methods we can use to output data to the user’s screen?
-* What is similar between these two output methods?
-* What is different between these two output methods?
-* What is the method you can use to get input from the user?
-* What is at least one difference between the output and input methods?
-
-
-## Conditional Logic
-
-* What is a Boolean?
-* What are “truthy” values?
-* Are the following considered true or false: nil, 0, "0", "", 1, [], {} and -1?
-* When do you use elsif?
-* When do you use unless?
-* What do || and && and ! do?
-* What is short circuit evaluation?
-* What is returned by puts("woah") || true?
-* What is the ternary operator?
-* When should you use a case statement?
-
-
-## Loops
-
-* What is a loop and why it is useful?
-* What is a loop loop, and how would you use it?
-* What is a while loop, and how would you use it?
-* What is a for loop, and how would you use it?
-* What is a #times loop, and how would you use it?
-* What is an until loop, and how would you use it?
-* What are the #upto and #downto loops, and how would you use them?
-
-
-## Arrays
-
-* What is an array and why is it useful?
-* What are two ways to create a new empty array?
-* What are some ways of accessing the elements in an array?
-* What are 3 ways to add data to an array?
-* How can you remove elements from an array?
-
-
-## Hashes
-
-* What are the differences between hashes and arrays?
-* What are keys and values in a hash?
-* How can you create a new hash?
-* How can you populate a hash with data?
-* How can you change existing values within a hash?
-* How can you delete existing data from a hash?
-* How can you merge two hashes together?
-* Why is it preferred to use symbols as hash keys?
-
-
-## Methods
-
-* How would you create your own method?
-* How would you call your new method?
-* How do you pass variables to your method?
-* How do you define default parameters for your method?
-* What is the difference between an explicit return and an implicit return?
-* What is the difference between puts and return?
-* How do you chain multiple methods together?
-* Give an example of a valid method name and an invalid method name.
-* What is snake case?
-* What are some of Ruby’s reserved words?
-* What do you call a method that returns true or false? What is their naming convention?
-* What do bang methods do? What is their naming convention?
-
-
-## Debugging
-
-* What is a stack trace?
-* What is generally the most useful line in a stack trace?
-* What are the two things you can learn from the first line of a stack trace?
-* How do puts and Pry help you in the debugging process?
-* What should you use instead of puts for nil values?
-* Where should you start with debugging if you encounter a runtime error?
-* Where should you start with debugging if your program runs but does not work the way you expect?
-
-
-## Basic Enumerable Methods
-
-* What does the #each method do? What does it return?
-* What does the #each_with_index method do?
-* What does the #map method do?
-* What does the #select method do?
-* What does the #reduce method do?
-* When should you use do...end around a code block versus {...}?
-* Why should you avoid using the bang methods of enumerables?
-
-
-## Predicate Enumerable Methods
-
-* Why is there a question mark after some method names?
-* What does the #include? method do?
-* What does the #any? method do?
-* What does the #all? method do?
-* What does the #none? method do?
-
-
-## Nested Collections
-
-* What is a nested array? What data is useful to store in a nested array?
-* What is a nested hash? What data is useful to store in a nested hash?
-* How do you access elements in a nested array?
-* How do you access data in a nested hash?
-* Why is the #dig method useful?
-* How do you add elements to a nested array?
-* How do you add data to a nested hash?
-* How do you delete elements from a nested array?
-* How do you delete data in a nested hash?
-* How do you create a new nested array that is not mutable?
-* How do you iterate over a nested array?
-* How do you iterate over a nested hash?
-
-
-## Project: Caesar Cipher
-
-
-
-## Project: Sub Strings
-
-
-
-## Project: Stock Picker
-
-
-
-## Project: Bubble Sort
-
-
-
-## Object Oriented Programming
-
-* What is a class?
-* What are getters and setters?
-* What is inheritance?
-* What is a scope?
-* When is a new scope defined?
-* What is the purpose of instance variables?
-* What is the difference between class variables and instance variables?
-
-
-## Project: Tic Tac Toe
-
-
-
-## Project: Mastermind
-
-
-
-## Files and Serialization
-
-* How would you go through the lines of a file using an IO object?
-* How would you take the Array [1,2,3] and serialize it into a JSON string format?
-* What are the benefits of YAML vs JSON vs MessagePack serialization formats?
-* How can you check if a file or directory exists?
-* How can you list a directory’s contents in the form of an array?
-
-
-## Project: Event Manager
-
-
-
-## Project: Hangman
-
-
-
-## Pattern Matching
-
-* What is pattern matching?
-* What is the difference between array patterns and hash patterns?
-* What is the variable pattern match?
-* What are the different ways of pattern matching on an array?
-* Explain the find pattern.
-
-
-## Blocks
-
-* What is a block?
-* How is a block like a method?
-* What are the two ways to declare a block?
-* How do you return data from a block?
-* How can your methods collect the return data from a block?
-* What happens if you include a return statement in a block?
-* What does yield do?
-* How do you pass arguments to a block from within a method?
-* How do you check whether a block was actually passed in?
-* What is a proc?
-* What is a lambda?
-* What’s different between a lambda and a proc?
-* How do you convert a proc to a block?
-* How do you convert a block to a proc?
-
-
-## Project: Custom Enumerables
-
-
-
-## A Very Brief Intro to CS
-
-* What is an Algorithm?
-* What is the importance of algorithms in web development?
-* What is pseudocode?
-
-
-## Recursive Methods
-
-* How would you briefly define a recursive function?
-* What is the point of recursion? Is it more efficient than using a plain loop?
-* What are the 2 essential parts in a recursive function?
-* Why is “stack overflow” relevant to a recursive problem?
-
-
-## Project: Recursion
-
-
-
-## Time Complexity
-
-* What is Big O?
-* What are the Big O Notations?
-* Why use Big O?
-* What is Big Omega and why isn’t it as useful?
-
-
-## Space Complexity
-
-* What is space complexity?
-* How do we measure space complexity?
-* What are the main considerations we should consider before optimising code?
-
-
-## Common Data Structures and Algorithms
-
-* What is the difference between a stack and a queue?
-* How would you implement a queue in Ruby?
-* What is a linked list? What is a node?
-* Which recursive problem-solving method/algorithm design principle does binary search implement?
-* What abstract data type would you use to defer/store nodes in a breadth-first tree traversal?
-* What abstract data type would you use to defer/store nodes in a depth-first tree traversal?
-
-
-## Project: Linked Lists
-
-
-
-## HashMap Data Structure
-
-* What does it mean to hash?
-* What are buckets?
-* What is a collision?
-* When is it a good time to grow our table?
-
-
-## Project: HashMap
-
-
-
-## Project: Binary Search Trees
-
-
-
-## Project: Knights Travails
-
-
-
-## A Deeper Look at Git
-
-* Explain what it means for branches to be pointers.
-* How can you amend your last commit?
-* What are some different ways to rewrite history?
-
-
-## Working with Remotes
-
-* What is a safe way to push history changes to a remote repository?
-* What are the dangers of history-changing operations?
-* What are best practices of history-changing operations?
-
-
-## Using Git in the Real World
-
-* What name is typically given for a Git remote that points to a repo that’s been forked?
-* Can you directly send your changes to a repository that you don’t own/have write access to?
-* What should you do immediately before merging your feature branch into main?
-
-
-## Test Driven Development
-
-* What is the “red-green-refactor” cycle?
-* What is the difference between unit and integration tests?
-* How does TDD help in code refactoring?
-
-
-## Introduction to RSpec
-
-* What do you name the folder that contains your test files?
-* What does the keyword describe define?
-* What does the keyword it define?
-* How many expect clauses can you write for one test case?
-* What are some of RSpec’s equality matchers?
-* How do we tell RSpec where to find the code to be tested?
-
-
-## Project: Connect Four
-
-
-
-## Project: Ruby Final Project
-
-
-
-## Conclusion
+## Project: SQL Zoo
 
 
 
@@ -1598,6 +1276,32 @@
 
 
 
+## Databases
+
+* What is a database?
+* What are relational databases?
+* What is a Primary Key?
+* What is SQL?
+* How do you get all the records from a table in SQL?
+* How do you insert a record in SQL?
+
+
+## Databases and SQL
+
+* What is the difference between a foreign key and a primary key?
+* Where is the setup information for your database stored?
+* What are the important parts of a SQL command?
+* Which SQL statement is associated with “Read” from the CRUD acronym?
+* Which JOIN statement keeps only the rows from both tables where they match up?
+* How do you use an aggregate function?
+* In which situation would you use the HAVING function?
+* Why can’t I just use code to process my database data?
+
+
+## Project: SQL Zoo
+
+
+
 ## How This Course Will Work
 
 
@@ -1606,16 +1310,16 @@
 
 
 
-## Organizing Your Javascript Code Introduction
+## Organizing Your JavaScript Code Introduction
 
 
 
 ## Objects and Object Constructors
 
-* Write an object constructor and instantiate the object.
-* Describe what a prototype is and how it can be used.
-* Explain prototypal inheritance.
-* Understand the basic do’s and don’t’s of prototypal inheritance.
+* How do you write an object constructor and instantiate the object?
+* What is a prototype and how can it be used?
+* What is prototypal inheritance?
+* What are the basic do’s and don’t’s of prototypal inheritance?
 * How does this behave in different situations?
 
 
@@ -1625,14 +1329,14 @@
 
 ## Factory Functions and the Module Pattern
 
-* Explain how scope works in JavaScript.
-* Explain what closures are and how they help in creating private variables.
-* Describe the common issues that you can face when working with constructors.
-* Describe private variables in factory functions and how they can be useful.
-* Describe how we can implement prototypal inheritance with factory functions.
-* Explain how the module pattern works.
-* Describe IIFEs and what they stand for.
-* Explain the concept of namespacing and how factory functions help with encapsulation.
+* How does scope work in JavaScript?
+* What are closures and how do they help in creating private variables?
+* What common issues can you face when working with constructors?
+* What are private variables in factory functions and how can they be useful?
+* How can we implement prototypal inheritance with factory functions?
+* How does the module pattern work?
+* What does IIFE stand for and what are they?
+* What is the concept of namespacing and how do factory functions help with encapsulation?
 
 
 ## Project: Tic Tac Toe
@@ -1641,45 +1345,52 @@
 
 ## Classes
 
-* Describe the pros and cons of using classes in JavaScript.
-* How does JavaScript’s object creation differ from a language like Java or Ruby?
-* Explain the differences between object constructors and classes.
-* What are “getters” & “setters”?
-* Describe computed names and class fields.
-* Describe function binding.
-* Describe static properties.
-* Describe private class features.
+* What differences are there between object constructors and classes?
+* What are getters and setters?
 * How is inheritance used with classes?
-* Why is favoring Composition over Inheritance suggested?
+* What are some private class features?
+* What are static properties?
 
 
 ## ES6 Modules
 
-* Explain what npm is and where it was commonly used before being adopted on the frontend.
-* Describe what npm init does and what package.json is.
-* Know how to install packages using npm.
-* Describe what a JavaScript module bundler like webpack is.
-* Explain what the concepts “entry” and “output” mean in relation to webpack.
-* Briefly explain what a development dependency is.
-* Explain what “transpiling code” means and how it relates to frontend development.
-* Briefly describe what a task runner is and how it’s used in frontend development.
-* Describe how to write an npm automation script.
-* Explain one of the main benefits of writing code in modules.
-* Explain “named exports” and “default exports”.
+* Before ES6 modules, how would you privatize a variable from being accessible in other files?
+* Before ES6 modules, how would you expose variables to be accessible in later files?
+* What are some benefits of writing code in modules?
+* What is the difference between default and named exports?
+* What is an entry point?
+* How do you link a module script in HTML?
+
+
+## npm
+
+* What is npm?
+* What file does npm use that contains all information about dependencies?
 
 
 ## Webpack
 
-* How do you load CSS using webpack?
-* How do you load images using webpack?
-* How do you load fonts using webpack?
-* How do you automatically build HTML files in dist using webpack?
-* How do you automatically build an HTML file in dist using a custom template in src?
-* How would you track errors in bundled source code?
+* What is a bundler?
+* What is Webpack?
+* How do you bundle JavaScript?
+* How do you load CSS using Webpack?
+* How do you automatically build HTML files in dist using Webpack?
+* How would you handle assets like local image files?
+* What Webpack tool could you use during development to view changes to your website live?
+* How does using a source map help with development?
 
 
 ## Project: Restaurant Page
 
+
+
+## Revisiting Webpack
+
+* Where do npm scripts live?
+* How do you define and run npm scripts?
+* What are the two Webpack modes?
+* What tool allows you to split your Webpack configuration file with minimal duplication?
+* What is a template repository, and how would you create one?
 
 
 ## JSON
@@ -1688,9 +1399,10 @@
 
 ## OOP Principles
 
-* Explain the “Single Responsibility Principle”.
-* Briefly explain the additional SOLID principles.
-* Explain what “tightly coupled” objects are and why we want to avoid them.
+* What is the “Single Responsibility Principle”?
+* What are the additional SOLID principles?
+* What are “tightly coupled” objects and why do we want to avoid them?
+* Why is favoring composition over inheritance suggested?
 
 
 ## Project: Todo List
@@ -1701,23 +1413,23 @@
 
 * What is linting?
 * Which problems can linting prevent?
-* Why should you use Prettier?
-* What is a template repository?
+* What are some of the benefits of using a formatter?
+* What is Prettier?
+* Why should you install linters and/or formatters as dev dependencies in your project?
 
 
 ## Dynamic User Interface Interactions
 
-* What are some different types of navigation menus?
-* What are the alternatives to hamburger menus?
-* What are the downsides of hamburger menus?
+* What are the two main parts that a dropdown menu consists of?
+* When might you want to use dropdown menus in a website?
+* What are the benefits of using image carousels?
 
 
 ## Form Validation with JavaScript
 
-* Explain the importance of validating HTML forms before submitting them to a server.
-* Describe the two types of client-side form validation.
-* Explain how JavaScript Constraint Validation API provides more control and customization of form validation.
-* Could forms also be validated without using Constraint Validation API?
+* What is the importance of validating HTML forms before submitting them to a server?
+* What are the two types of client-side form validation?
+* How does JavaScript Constraint Validation API provide more control and customization of form validation?
 
 
 ## What is ES6?
@@ -1737,7 +1449,7 @@
 * What is an API?
 * How is access to an API restricted?
 * How do you fetch and extract data from an API?
-* Why might your API request be blocked by the browser, and how might you fix this?
+* Why might your API request be blocked by the browser, and how might you fix it?
 
 
 ## Async and Await
@@ -1787,196 +1499,6 @@
 
 
 
-## Databases
-
-* What is a database?
-* What are relational databases?
-* What is a Primary Key?
-* What is SQL?
-* How do you get all the records from a table in SQL?
-* How do you insert a record in SQL?
-
-
-## Databases and SQL
-
-* What is the difference between a foreign key and a primary key?
-* Where is the setup information for your database stored?
-* What are the important parts of a SQL command?
-* Which SQL statement is associated with “Read” from the CRUD acronym?
-* Which JOIN statement keeps only the rows from both tables where they match up?
-* How do you use an aggregate function?
-* In which situation would you use the HAVING function?
-* Why can’t I just use Ruby to process my database data?
-
-
-## Project: SQL Zoo
-
-
-
-## Introduction to the Back End
-
-* What is back-end development?
-* How many parts does the backend consist of?
-* Name each part of the backend.
-* Where does the backend store its data?
-
-
-## Introduction to Frameworks
-
-* What problems do frameworks solve?
-* Name some popular front-end and back-end frameworks.
-* Describe the process of choosing a framework.
-
-
-## Introduction: What is NodeJS?
-
-* What is Node?
-
-
-## Getting Started
-
-* What is a File System Module? How and why would you use it?
-* What is the command for installing a package locally in with npm?
-* What is the command for installing a package globally in with npm?
-* What is the difference between a global and local package install with npm?
-
-
-## Debugging Node
-
-* What are two ways to debug Node?
-
-
-## Project: Basic Informational Site
-
-
-
-## Introduction to MongoDB
-
-* What is the difference between a relational database and a non-relational database?
-
-
-## Introduction to Express
-
-* What is Express?
-* What is a module?
-* Which are the four most used methods to define route handlers?
-* How do we handle errors?
-* How do you use the Express library with NPM in a project?
-
-
-## Express 101
-
-* What is middleware?
-* What is the req object?
-* What is the res object?
-* Why is next important?
-* What does app.use do?
-
-
-## Express 102: CRUD and MVC
-
-
-
-## Project: Mini Message Board
-
-
-
-## Deployment
-
-* What’s the difference between static and dynamic websites?
-* What does ‘PaaS’ stand for?
-* What are the advantages of using a PaaS hosting provider?
-* What is an instance?
-* What steps can you take to diagnose an issue that arises during deployment?
-* What steps can you take to diagnose an issue that only appears after deployment?
-
-
-## Express 103: Routes and Controllers
-
-* How do you define a route function in Express?
-* Name four HTTP verbs a route might need to handle.
-* What is a route parameter, and what syntax is used to define one in a route handler?
-* What is a route-handler callback function commonly called?
-
-
-## Express 104: View Templates
-
-
-
-## Project: Express 105: Forms and Deployment
-
-
-
-## Project: Inventory Application
-
-
-
-## Authentication Basics
-
-* Which passportJS strategy did we use in the lesson?
-* Why does passportJS create a cookie?
-* What does the bcrypt.compare() function do?
-* Why should we include bcrypt when we begin a project?
-
-
-## Security Configuration
-
-* What special kind of variable can be used on a server to store secrets?
-* What are two widely used packages that can be used to store and import these variables?
-* What is the name of the file dotenv looks for when injecting these variables into our app?
-
-
-## Project: Members Only
-
-
-
-## API Basics
-
-* What does REST stand for?
-* What are HTTP verbs and why are they important to an API?
-* What is the Same-Origin Policy?
-* How do you enable CORS in your Express app?
-* Which HTTP verb does each letter in CRUD (Create, Read, Update, Delete) correspond to?
-
-
-## API Security
-
-* What is a JSON web token?
-* What are two things a secure token will do?
-* Where in the code is a secure token passed?
-
-
-## Project: Blog API
-
-
-
-## Testing Routes and Controllers
-
-
-
-## Testing Database Operations
-
-* What is the purpose of using a separate database for testing?
-* How would you create and setup a testing database using the npm package mongodb-memory-server?
-* What is an alternative method of database setup for your testing environment?
-
-
-## Project: Where's Waldo (A Photo Tagging App)
-
-
-
-## Project: Messaging App
-
-
-
-## Project: Odin-Book
-
-
-
-## Conclusion
-
-
-
 ## How This Course Will Work
 
 
@@ -1985,16 +1507,16 @@
 
 
 
-## Organizing Your Javascript Code Introduction
+## Organizing Your JavaScript Code Introduction
 
 
 
 ## Objects and Object Constructors
 
-* Write an object constructor and instantiate the object.
-* Describe what a prototype is and how it can be used.
-* Explain prototypal inheritance.
-* Understand the basic do’s and don’t’s of prototypal inheritance.
+* How do you write an object constructor and instantiate the object?
+* What is a prototype and how can it be used?
+* What is prototypal inheritance?
+* What are the basic do’s and don’t’s of prototypal inheritance?
 * How does this behave in different situations?
 
 
@@ -2004,14 +1526,14 @@
 
 ## Factory Functions and the Module Pattern
 
-* Explain how scope works in JavaScript.
-* Explain what closures are and how they help in creating private variables.
-* Describe the common issues that you can face when working with constructors.
-* Describe private variables in factory functions and how they can be useful.
-* Describe how we can implement prototypal inheritance with factory functions.
-* Explain how the module pattern works.
-* Describe IIFEs and what they stand for.
-* Explain the concept of namespacing and how factory functions help with encapsulation.
+* How does scope work in JavaScript?
+* What are closures and how do they help in creating private variables?
+* What common issues can you face when working with constructors?
+* What are private variables in factory functions and how can they be useful?
+* How can we implement prototypal inheritance with factory functions?
+* How does the module pattern work?
+* What does IIFE stand for and what are they?
+* What is the concept of namespacing and how do factory functions help with encapsulation?
 
 
 ## Project: Tic Tac Toe
@@ -2020,45 +1542,52 @@
 
 ## Classes
 
-* Describe the pros and cons of using classes in JavaScript.
-* How does JavaScript’s object creation differ from a language like Java or Ruby?
-* Explain the differences between object constructors and classes.
-* What are “getters” & “setters”?
-* Describe computed names and class fields.
-* Describe function binding.
-* Describe static properties.
-* Describe private class features.
+* What differences are there between object constructors and classes?
+* What are getters and setters?
 * How is inheritance used with classes?
-* Why is favoring Composition over Inheritance suggested?
+* What are some private class features?
+* What are static properties?
 
 
 ## ES6 Modules
 
-* Explain what npm is and where it was commonly used before being adopted on the frontend.
-* Describe what npm init does and what package.json is.
-* Know how to install packages using npm.
-* Describe what a JavaScript module bundler like webpack is.
-* Explain what the concepts “entry” and “output” mean in relation to webpack.
-* Briefly explain what a development dependency is.
-* Explain what “transpiling code” means and how it relates to frontend development.
-* Briefly describe what a task runner is and how it’s used in frontend development.
-* Describe how to write an npm automation script.
-* Explain one of the main benefits of writing code in modules.
-* Explain “named exports” and “default exports”.
+* Before ES6 modules, how would you privatize a variable from being accessible in other files?
+* Before ES6 modules, how would you expose variables to be accessible in later files?
+* What are some benefits of writing code in modules?
+* What is the difference between default and named exports?
+* What is an entry point?
+* How do you link a module script in HTML?
+
+
+## npm
+
+* What is npm?
+* What file does npm use that contains all information about dependencies?
 
 
 ## Webpack
 
-* How do you load CSS using webpack?
-* How do you load images using webpack?
-* How do you load fonts using webpack?
-* How do you automatically build HTML files in dist using webpack?
-* How do you automatically build an HTML file in dist using a custom template in src?
-* How would you track errors in bundled source code?
+* What is a bundler?
+* What is Webpack?
+* How do you bundle JavaScript?
+* How do you load CSS using Webpack?
+* How do you automatically build HTML files in dist using Webpack?
+* How would you handle assets like local image files?
+* What Webpack tool could you use during development to view changes to your website live?
+* How does using a source map help with development?
 
 
 ## Project: Restaurant Page
 
+
+
+## Revisiting Webpack
+
+* Where do npm scripts live?
+* How do you define and run npm scripts?
+* What are the two Webpack modes?
+* What tool allows you to split your Webpack configuration file with minimal duplication?
+* What is a template repository, and how would you create one?
 
 
 ## JSON
@@ -2067,9 +1596,10 @@
 
 ## OOP Principles
 
-* Explain the “Single Responsibility Principle”.
-* Briefly explain the additional SOLID principles.
-* Explain what “tightly coupled” objects are and why we want to avoid them.
+* What is the “Single Responsibility Principle”?
+* What are the additional SOLID principles?
+* What are “tightly coupled” objects and why do we want to avoid them?
+* Why is favoring composition over inheritance suggested?
 
 
 ## Project: Todo List
@@ -2080,23 +1610,23 @@
 
 * What is linting?
 * Which problems can linting prevent?
-* Why should you use Prettier?
-* What is a template repository?
+* What are some of the benefits of using a formatter?
+* What is Prettier?
+* Why should you install linters and/or formatters as dev dependencies in your project?
 
 
 ## Dynamic User Interface Interactions
 
-* What are some different types of navigation menus?
-* What are the alternatives to hamburger menus?
-* What are the downsides of hamburger menus?
+* What are the two main parts that a dropdown menu consists of?
+* When might you want to use dropdown menus in a website?
+* What are the benefits of using image carousels?
 
 
 ## Form Validation with JavaScript
 
-* Explain the importance of validating HTML forms before submitting them to a server.
-* Describe the two types of client-side form validation.
-* Explain how JavaScript Constraint Validation API provides more control and customization of form validation.
-* Could forms also be validated without using Constraint Validation API?
+* What is the importance of validating HTML forms before submitting them to a server?
+* What are the two types of client-side form validation?
+* How does JavaScript Constraint Validation API provide more control and customization of form validation?
 
 
 ## What is ES6?
@@ -2116,7 +1646,7 @@
 * What is an API?
 * How is access to an API restricted?
 * How do you fetch and extract data from an API?
-* Why might your API request be blocked by the browser, and how might you fix this?
+* Why might your API request be blocked by the browser, and how might you fix it?
 
 
 ## Async and Await
@@ -2186,7 +1716,7 @@
 * What does it mean to hash?
 * What are buckets?
 * What is a collision?
-* When is it a good time to grow our table?
+* When is it a good time to grow our buckets array?
 
 
 ## Project: HashMap
@@ -2203,14 +1733,14 @@
 
 ## A Deeper Look at Git
 
-* Explain what it means for branches to be pointers.
 * How can you amend your last commit?
 * What are some different ways to rewrite history?
+* What does it mean for branches to be pointers?
 
 
 ## Working with Remotes
 
-* What is a safe way to push history changes to a remote repository?
+* What is a safe way to forcefully push history changes to a remote repository?
 * What are the dangers of history-changing operations?
 * What are best practices of history-changing operations?
 
@@ -2219,7 +1749,7 @@
 
 * What name is typically given for a Git remote that points to a repo that’s been forked?
 * Can you directly send your changes to a repository that you don’t own/have write access to?
-* What should you do immediately before merging your feature branch into main?
+* What should you do immediately before merging main into your feature branch?
 
 
 ## Testing Basics
@@ -2259,62 +1789,6 @@
 
 
 
-## Professional Networking
-
-
-
-## Strategy
-
-
-
-## It Starts with YOU
-
-
-
-## What Companies Want
-
-
-
-## What You Can Do to Prepare
-
-
-
-## Project: Building Your Personal Website
-
-
-
-## Collecting Job Leads
-
-
-
-## Qualifying Job Leads
-
-
-
-## Project: Building Your Resume
-
-
-
-## Applying for Web Development Jobs
-
-
-
-## Preparing to Interview and Interviewing
-
-
-
-## Handling a Job Offer
-
-
-
-## Conclusion
-
-
-
-## How This Course Will Work
-
-
-
 ## Introduction To React
 
 * What is the purpose of React?
@@ -2341,6 +1815,10 @@
 
 ## What Is JSX?
 
+* What is JSX?
+* Why do we use JSX?
+* What are the three rules of JSX?
+* How do you reference a dynamic value inside of your JSX?
 
 
 ## Rendering Techniques
@@ -2499,6 +1977,210 @@
 
 
 
+## Introduction to the Back End
+
+* What is back-end development?
+* How many parts does the backend consist of?
+* Name each part of the backend.
+* Where does the backend store its data?
+
+
+## Introduction to Frameworks
+
+* What problems do frameworks solve?
+* Name some popular front-end and back-end frameworks.
+* Describe the process of choosing a framework.
+
+
+## Introduction: What is NodeJS?
+
+* What is Node?
+
+
+## Getting Started
+
+* What is a File System Module? How and why would you use it?
+
+
+## Debugging Node
+
+* What are two ways to debug Node?
+
+
+## Project: Basic Informational Site
+
+
+
+## Environment Variables
+
+* What are environment variables?
+* What might you want to use environment variables for?
+* What npm package could you use to load environment variables from a .env file?
+* How do you access environment variables in a Node app?
+* What data type will an environment variable always be?
+* Should you push your .env file to GitHub?
+
+
+## Introduction to Express
+
+* What is Express?
+* What happens when a server receives a request?
+* What can we use to tell Express to send a file in response to a request?
+* What can you use to automatically restart your server when you make changes to a file?
+
+
+## Routes
+
+* How can you define a route that will only match a specific HTTP verb?
+* How can you define a route that will match all HTTP verbs?
+* How can you define path patterns for your routes to match?
+* How does the order of your routes affect which routes get matched?
+* What object gets populated with route parameters?
+* How do you access query parameters within routes?
+* How do you extract routes to an individual router?
+* We have a router for paths starting with /users. Inside that router, what path should a GET route have to match a GET request to the /users/delete path?
+
+
+## Controllers
+
+* What are the common response methods and their use cases?
+* What are the types of middleware?
+* How does a middleware get executed? In which order?
+* What does calling the next function do? What if we pass an error argument?
+* What are the other arguments you can pass to the next function?
+* What is a controller?
+* What is the difference between a controller and a middleware?
+* What happens if you define a middleware function with four parameters?
+* What would you do to create a custom error?
+
+
+## Views
+
+* How do you configure EJS for Express projects?
+* What is the difference between “<%” and “<%=” tags?
+* How do you render a view in a controller callback?
+* How can templates be included in other templates?
+
+
+## Project: Mini Message Board
+
+
+
+## Deployment
+
+* What’s the difference between static and dynamic websites?
+* What does ‘PaaS’ stand for?
+* What are the advantages of using a PaaS hosting provider?
+* What is an instance?
+* What steps can you take to diagnose an issue that arises during deployment?
+* What steps can you take to diagnose an issue that only appears after deployment?
+
+
+## Forms and Data Handling
+
+* What are the attributes of a form element and what do they do?
+* How do you install and import express-validator in your project?
+* How do you validate and sanitize form input using express-validator?
+* What is the difference between validation and sanitization?
+* How do you handle validation errors in Express routes?
+* What is the importance of escaping HTML characters in a form?
+
+
+## Installing PostgreSQL
+
+* Why is data persistence important in web applications?
+
+
+## Using PostgreSQL
+
+* How do you create a db and table via PostgreSQL shell?
+* What is node-postgres and how do you use it?
+* When should you use a client or a pool in pg?
+* How would you integrate db query functions in your Express app?
+* How would you populate the db via a script?
+
+
+## Project: Inventory Application
+
+
+
+## Authentication Basics
+
+* Which passport.js strategy did we use in the lesson?
+* Why does passport.js create a cookie?
+* What does the bcrypt.compare() function do?
+* Why should we include bcrypt when we begin a project?
+
+
+## Project: Members Only
+
+
+
+## Prisma ORM
+
+* What are some of the challenges of using raw sql?
+* What is Prisma schema and how is it useful?
+* What is the Prisma client?
+* How does Prisma client know about the models in your schema?
+* What is Prisma migrate?
+* How do you define a relation in Prisma schema?
+* How can you get all records from a table using Prisma client?
+
+
+## Project: File Uploader
+
+
+
+## API Basics
+
+* What does REST stand for?
+* What are HTTP verbs and why are they important to an API?
+* What is the Same-Origin Policy?
+* How do you enable CORS in your Express app?
+* Which HTTP verb does each letter in CRUD (Create, Read, Update, Delete) correspond to?
+
+
+## API Security
+
+* What is a JSON web token?
+* What are two things a secure token will do?
+* Where in the code is a secure token passed?
+
+
+## Project: Blog API
+
+
+
+## Testing Routes and Controllers
+
+* What is the motivation behind SuperTest?
+* What is the purpose of done? What convenience does SuperTest provide concerning it?
+* What is the difference in handling errors when using .end() method in conjunction with .expect() provided by SuperTest?
+* What are the methods provided by SuperAgent to handle multipart requests and how to use them?
+
+
+## Testing Database Operations
+
+* When should you unit test database operations?
+* How do you set up and use a test database for integration testing?
+
+
+## Project: Where's Waldo (A Photo Tagging App)
+
+
+
+## Project: Messaging App
+
+
+
+## Project: Odin-Book
+
+
+
+## Conclusion
+
+
+
 ## How This Course Will Work
 
 
@@ -2541,7 +2223,6 @@
 * Assuming we have no knowledge of the HTTP-verb, which 3 RESTful controller actions could be triggered by the /photos/:id -route?
 * How can you assign all of the RESTful routes for a resource - excluding the destroy-route - in just one line?
 * How would you create a link in your app (without hardcoding), that directs you to /photos/10/edit?
-* Which Chrome extension can you use to simulate HTTP-requests with an API?
 
 
 ## Controllers
@@ -2589,15 +2270,15 @@
 * Which rails command will undo a database migration?
 
 
-## Basic Associations
-
-* If class A has a belongs_to association with class B, which class’s database table should contain a foreign key?
-
-
 ## Basic Validations
 
 * What does the validation helper presence: true enforce?
 * How can you see why an instance of a model class has failed validation?
+
+
+## Basic Associations
+
+* If class A has a belongs_to association with class B, which class’s database table should contain a foreign key?
 
 
 ## Project: Micro-Reddit
@@ -2625,7 +2306,6 @@
 
 ## Form Basics
 
-* What is a CSRF Token and why is it necessary?
 * What is the name attribute of a form input element and what does it do?
 * How do you nest attributes under a single hash in params?
 * How do you pass form_with a model object?
@@ -2667,6 +2347,7 @@
 * What is an example of an N+1 query?
 * What method is used to deal with an N+1 query?
 * When would you use a class method in place of a scope?
+* When should you consider using enums?
 
 
 ## Active Record Associations
@@ -2771,7 +2452,7 @@
 * How do you send an email directly from the Rails console?
 * How do you use callbacks with mailers?
 * How do you write links in mailer views?
-* How do you style an HTML email?
+* How do you style an HTML email
 
 
 ## Project: Sending Confirmation Emails
@@ -2791,9 +2472,459 @@
 
 ## Websockets and Actioncable
 
+* What options did developers have before WebSockets to update a client without a user request?
+* How can you broadcast to a stream from the server?
+* Where do you authorize incoming connections?
+* What are Action Cable’s stream options?
+* What is the difference between stream_from and stream_for?
 
 
 ## Project: Rails Final Project
+
+
+
+## Conclusion
+
+
+
+## How This Course Will Work
+
+
+
+## Installing Ruby
+
+
+
+## Basic Data Types
+
+* What are the basic arithmetic operators you can use on numbers?
+* What’s the difference between an integer and a float?
+* What method would you use to convert a float to an integer?
+* What method would you use to convert an integer to a float?
+* What is a string?
+* What are the differences between single and double quotes?
+* What is string interpolation?
+* How do you concatenate strings?
+* What method would you use to change all the characters in your string to upper case?
+* What method would you use to split up strings into arrays?
+* What are escape characters?
+* How do you access a specific character or substring?
+* How do you convert other data types into strings?
+* What is a symbol?
+* How do you create a symbol?
+* What’s the difference between a symbol and a string?
+* What does true represent?
+* What does false represent?
+* What does nil represent?
+
+
+## Variables
+
+* What is a variable?
+* How do you assign a value or an expression to a variable?
+* What does the += assignment operator do?
+* What does the -= assignment operator do?
+* What does the *= assignment operator do?
+* What does the /= assignment operator do?
+* What are the variable naming conventions?
+
+
+## Input and Output
+
+* What are the two methods we can use to output data to the user’s screen?
+* What is similar between these two output methods?
+* What is different between these two output methods?
+* What is the method you can use to get input from the user?
+* What is at least one difference between the output and input methods?
+
+
+## Conditional Logic
+
+* What is a Boolean?
+* What are “truthy” values?
+* Are the following considered true or false: nil, 0, "0", "", 1, [], {} and -1?
+* When do you use elsif?
+* When do you use unless?
+* What do || and && and ! do?
+* What is short circuit evaluation?
+* What is returned by puts("woah") || true?
+* What is the ternary operator?
+* When should you use a case statement?
+
+
+## Loops
+
+* What is a loop and why is it useful?
+* What is a loop loop, and how would you use it?
+* What is a while loop, and how would you use it?
+* What is a for loop, and how would you use it?
+* What is a #times loop, and how would you use it?
+* What is an until loop, and how would you use it?
+* What are the #upto and #downto loops, and how would you use them?
+
+
+## Arrays
+
+* What is an array and why is it useful?
+* What are two ways to create a new empty array?
+* What are some ways of accessing the elements in an array?
+* What are 3 ways to add data to an array?
+* How can you remove elements from an array?
+
+
+## Hashes
+
+* What are the differences between hashes and arrays?
+* What are keys and values in a hash?
+* How can you create a new hash?
+* How can you populate a hash with data?
+* How can you change existing values within a hash?
+* How can you delete existing data from a hash?
+* How can you merge two hashes together?
+* Why is it preferred to use symbols as hash keys?
+
+
+## Methods
+
+* How would you create your own method?
+* How would you call your new method?
+* How do you pass variables to your method?
+* How do you define default parameters for your method?
+* What is the difference between an explicit return and an implicit return?
+* What is the difference between puts and return?
+* How do you chain multiple methods together?
+* Give an example of a valid method name and an invalid method name.
+* What is snake case?
+* What are some of Ruby’s reserved words?
+* What do you call a method that returns true or false? What is their naming convention?
+* What do bang methods do? What is their naming convention?
+
+
+## Debugging
+
+* What is a stack trace?
+* What is generally the most useful line in a stack trace?
+* What are the two things you can learn from the first line of a stack trace?
+* How do puts and Pry help you in the debugging process?
+* What should you use instead of puts for nil values?
+* Where should you start with debugging if you encounter a runtime error?
+* Where should you start with debugging if your program runs but does not work the way you expect?
+
+
+## Basic Enumerable Methods
+
+* What does the #each method do? What does it return?
+* What does the #each_with_index method do?
+* What does the #map method do?
+* What does the #select method do?
+* What does the #reduce method do?
+* When should you use do...end around a code block versus {...}?
+* Why should you avoid using the bang methods of enumerables?
+
+
+## Predicate Enumerable Methods
+
+* Why is there a question mark after some method names?
+* What does the #include? method do?
+* What does the #any? method do?
+* What does the #all? method do?
+* What does the #none? method do?
+
+
+## Nested Collections
+
+* What is a nested array? What data is useful to store in a nested array?
+* What is a nested hash? What data is useful to store in a nested hash?
+* How do you access elements in a nested array?
+* How do you access data in a nested hash?
+* Why is the #dig method useful?
+* How do you add elements to a nested array?
+* How do you add data to a nested hash?
+* How do you delete elements from a nested array?
+* How do you delete data in a nested hash?
+* How do you create a new nested array that is not mutable?
+* How do you iterate over a nested array?
+* How do you iterate over a nested hash?
+
+
+## Project: Caesar Cipher
+
+
+
+## Project: Sub Strings
+
+
+
+## Project: Stock Picker
+
+
+
+## Project: Bubble Sort
+
+
+
+## Object Oriented Programming
+
+* What is a class?
+* What are getters and setters?
+* What is inheritance?
+* What is a scope?
+* When is a new scope defined?
+* What is the purpose of instance variables?
+* What is the difference between class variables and instance variables?
+
+
+## Project Management
+
+* Why would you split your code across multiple files?
+* How can you make code from different files available?
+* Why would you wrap your code in a module?
+* What are gems?
+* How do you install gems?
+* What is Bundler used for?
+* Why would you use bundle exec?
+* What are Gemfile and Gemfile.lock for?
+
+
+## Linting and RuboCop
+
+* What is a style guide?
+* What is formatting?
+* What is linting?
+* How do you install RuboCop?
+* How do you run RuboCop in a command line interface?
+* How do you read RuboCop’s output?
+* How do you configure RuboCop?
+* Why is Metrics department so important for new Rubyists?
+* What is the ABC metric?
+* What is cyclomatic complexity?
+* What is perceived complexity?
+* How do you configure RuboCop in VSCode?
+
+
+## Project: Tic Tac Toe
+
+
+
+## Project: Mastermind
+
+
+
+## Files and Serialization
+
+* How would you go through the lines of a file using an IO object?
+* How would you take the Array [1,2,3] and serialize it into a JSON string format?
+* What are the benefits of YAML vs JSON vs MessagePack serialization formats?
+* How can you check if a file or directory exists?
+* How can you list a directory’s contents in the form of an array?
+
+
+## Project: Event Manager
+
+
+
+## Project: Hangman
+
+
+
+## Pattern Matching
+
+* What is pattern matching?
+* What is the difference between array patterns and hash patterns?
+* What is the variable pattern match?
+* What are the different ways of pattern matching on an array?
+* Explain the find pattern.
+
+
+## Blocks
+
+* What is a block?
+* How is a block like a method?
+* What are the two ways to declare a block?
+* How do you return data from a block?
+* How can your methods collect the return data from a block?
+* What happens if you include a return statement in a block?
+* What does yield do?
+* How do you pass arguments to a block from within a method?
+* How do you check whether a block was actually passed in?
+* What is a proc?
+* What is a lambda?
+* What’s different between a lambda and a proc?
+* How do you convert a proc to a block?
+* How do you convert a block to a proc?
+
+
+## Project: Custom Enumerables
+
+
+
+## A Very Brief Intro to CS
+
+* What is an Algorithm?
+* What is the importance of algorithms in web development?
+* What is pseudocode?
+
+
+## Recursive Methods
+
+* How would you briefly define a recursive function?
+* What is the point of recursion? Is it more efficient than using a plain loop?
+* What are the 2 essential parts in a recursive function?
+* Why is “stack overflow” relevant to a recursive problem?
+
+
+## Project: Recursion
+
+
+
+## Time Complexity
+
+* What is Big O?
+* What are the Big O Notations?
+* Why use Big O?
+* What is Big Omega and why isn’t it as useful?
+
+
+## Space Complexity
+
+* What is space complexity?
+* How do we measure space complexity?
+* What are the main considerations we should consider before optimising code?
+
+
+## Common Data Structures and Algorithms
+
+* What is the difference between a stack and a queue?
+* How would you implement a queue in Ruby?
+* What is a linked list? What is a node?
+* Which recursive problem-solving method/algorithm design principle does binary search implement?
+* What abstract data type would you use to defer/store nodes in a breadth-first tree traversal?
+* What abstract data type would you use to defer/store nodes in a depth-first tree traversal?
+
+
+## Project: Linked Lists
+
+
+
+## HashMap Data Structure
+
+* What does it mean to hash?
+* What are buckets?
+* What is a collision?
+* When is it a good time to grow our table?
+
+
+## Project: HashMap
+
+
+
+## Project: Binary Search Trees
+
+
+
+## Project: Knights Travails
+
+
+
+## A Deeper Look at Git
+
+* How can you amend your last commit?
+* What are some different ways to rewrite history?
+* What does it mean for branches to be pointers?
+
+
+## Working with Remotes
+
+* What is a safe way to forcefully push history changes to a remote repository?
+* What are the dangers of history-changing operations?
+* What are best practices of history-changing operations?
+
+
+## Using Git in the Real World
+
+* What name is typically given for a Git remote that points to a repo that’s been forked?
+* Can you directly send your changes to a repository that you don’t own/have write access to?
+* What should you do immediately before merging main into your feature branch?
+
+
+## Test Driven Development
+
+* What is the “red-green-refactor” cycle?
+* What is the difference between unit and integration tests?
+* How does TDD help in code refactoring?
+
+
+## Introduction to RSpec
+
+* What do you name the folder that contains your test files?
+* What does the keyword describe define?
+* What does the keyword it define?
+* How many expect clauses can you write for one test case?
+* What are some of RSpec’s equality matchers?
+* How do we tell RSpec where to find the code to be tested?
+
+
+## Project: Connect Four
+
+
+
+## Project: Ruby Final Project
+
+
+
+## Conclusion
+
+
+
+## How This Course Will Work
+
+
+
+## Professional Networking
+
+
+
+## Strategy
+
+
+
+## It Starts with YOU
+
+
+
+## What Companies Want
+
+
+
+## What You Can Do to Prepare
+
+
+
+## Project: Building Your Personal Website
+
+
+
+## Collecting Job Leads
+
+
+
+## Qualifying Job Leads
+
+
+
+## Project: Building Your Resume
+
+
+
+## Applying for Web Development Jobs
+
+
+
+## Preparing to Interview and Interviewing
+
+
+
+## Handling a Job Offer
 
 
 

@@ -279,6 +279,8 @@ https://www.theodinproject.com/lessons/foundations-landing-page
 
 https://www.theodinproject.com/lessons/foundations-variables-and-operators
 
+https://www.theodinproject.com/lessons/foundations-installing-node-js
+
 https://www.theodinproject.com/lessons/foundations-data-types-and-conditionals
 
 https://www.theodinproject.com/lessons/foundations-javascript-developer-tools
@@ -292,8 +294,6 @@ https://www.theodinproject.com/lessons/foundations-understanding-errors
 https://www.theodinproject.com/lessons/foundations-rock-paper-scissors
 
 https://www.theodinproject.com/lessons/foundations-clean-code
-
-https://www.theodinproject.com/lessons/foundations-installing-node-js
 
 https://www.theodinproject.com/lessons/foundations-arrays-and-loops
 
@@ -309,97 +309,11 @@ https://www.theodinproject.com/lessons/foundations-calculator
 
 https://www.theodinproject.com/lessons/foundations-choose-your-path-forward
 
-https://www.theodinproject.com/lessons/ruby-how-this-course-will-work
+https://www.theodinproject.com/lessons/node-path-databases
 
-https://www.theodinproject.com/lessons/ruby-installing-ruby
+https://www.theodinproject.com/lessons/node-path-databases-databases-and-sql
 
-https://www.theodinproject.com/lessons/ruby-basic-data-types
-
-https://www.theodinproject.com/lessons/ruby-variables
-
-https://www.theodinproject.com/lessons/ruby-input-and-output
-
-https://www.theodinproject.com/lessons/ruby-conditional-logic
-
-https://www.theodinproject.com/lessons/ruby-loops
-
-https://www.theodinproject.com/lessons/ruby-arrays
-
-https://www.theodinproject.com/lessons/ruby-hashes
-
-https://www.theodinproject.com/lessons/ruby-methods
-
-https://www.theodinproject.com/lessons/ruby-debugging
-
-https://www.theodinproject.com/lessons/ruby-basic-enumerable-methods
-
-https://www.theodinproject.com/lessons/ruby-predicate-enumerable-methods
-
-https://www.theodinproject.com/lessons/ruby-nested-collections
-
-https://www.theodinproject.com/lessons/ruby-caesar-cipher
-
-https://www.theodinproject.com/lessons/ruby-sub-strings
-
-https://www.theodinproject.com/lessons/ruby-stock-picker
-
-https://www.theodinproject.com/lessons/ruby-bubble-sort
-
-https://www.theodinproject.com/lessons/ruby-object-oriented-programming
-
-https://www.theodinproject.com/lessons/ruby-tic-tac-toe
-
-https://www.theodinproject.com/lessons/ruby-mastermind
-
-https://www.theodinproject.com/lessons/ruby-files-and-serialization
-
-https://www.theodinproject.com/lessons/ruby-event-manager
-
-https://www.theodinproject.com/lessons/ruby-hangman
-
-https://www.theodinproject.com/lessons/ruby-pattern-matching
-
-https://www.theodinproject.com/lessons/ruby-blocks
-
-https://www.theodinproject.com/lessons/ruby-custom-enumerables
-
-https://www.theodinproject.com/lessons/ruby-a-very-brief-intro-to-cs
-
-https://www.theodinproject.com/lessons/ruby-recursive-methods
-
-https://www.theodinproject.com/lessons/ruby-recursion
-
-https://www.theodinproject.com/lessons/ruby-time-complexity
-
-https://www.theodinproject.com/lessons/ruby-space-complexity
-
-https://www.theodinproject.com/lessons/ruby-common-data-structures-and-algorithms
-
-https://www.theodinproject.com/lessons/ruby-linked-lists
-
-https://www.theodinproject.com/lessons/ruby-hashmap-data-structure
-
-https://www.theodinproject.com/lessons/ruby-hashmap
-
-https://www.theodinproject.com/lessons/ruby-binary-search-trees
-
-https://www.theodinproject.com/lessons/ruby-knights-travails
-
-https://www.theodinproject.com/lessons/ruby-a-deeper-look-at-git
-
-https://www.theodinproject.com/lessons/ruby-working-with-remotes
-
-https://www.theodinproject.com/lessons/ruby-using-git-in-the-real-world
-
-https://www.theodinproject.com/lessons/ruby-test-driven-development
-
-https://www.theodinproject.com/lessons/ruby-introduction-to-rspec
-
-https://www.theodinproject.com/lessons/ruby-connect-four
-
-https://www.theodinproject.com/lessons/ruby-ruby-final-project
-
-https://www.theodinproject.com/lessons/ruby-conclusion
+https://www.theodinproject.com/lessons/node-path-databases-sql-zoo
 
 https://www.theodinproject.com/lessons/getting-hired-how-this-course-will-work
 
@@ -429,6 +343,12 @@ https://www.theodinproject.com/lessons/getting-hired-handling-a-job-offer
 
 https://www.theodinproject.com/lessons/getting-hired-conclusion
 
+https://www.theodinproject.com/lessons/databases
+
+https://www.theodinproject.com/lessons/databases-databases-and-sql
+
+https://www.theodinproject.com/lessons/databases-sql-zoo
+
 https://www.theodinproject.com/lessons/javascript-how-this-course-will-work
 
 https://www.theodinproject.com/lessons/javascript-a-quick-review
@@ -445,11 +365,15 @@ https://www.theodinproject.com/lessons/javascript-tic-tac-toe
 
 https://www.theodinproject.com/lessons/javascript-classes
 
-https://www.theodinproject.com/lessons/javascript-es6-modules
+https://www.theodinproject.com/lessons/rails-path-javascript-es6-modules
 
-https://www.theodinproject.com/lessons/javascript-webpack
+https://www.theodinproject.com/lessons/javascript-npm
+
+https://www.theodinproject.com/lessons/rails-path-javascript-webpack
 
 https://www.theodinproject.com/lessons/javascript-restaurant-page
+
+https://www.theodinproject.com/lessons/javascript-revisiting-webpack
 
 https://www.theodinproject.com/lessons/javascript-json
 
@@ -483,68 +407,6 @@ https://www.theodinproject.com/lessons/javascript-battleship
 
 https://www.theodinproject.com/lessons/javascript-conclusion
 
-https://www.theodinproject.com/lessons/databases
-
-https://www.theodinproject.com/lessons/databases-databases-and-sql
-
-https://www.theodinproject.com/lessons/databases-sql-zoo
-
-https://www.theodinproject.com/lessons/nodejs-introduction-to-the-back-end
-
-https://www.theodinproject.com/lessons/nodejs-introduction-to-frameworks
-
-https://www.theodinproject.com/lessons/nodejs-introduction-what-is-nodejs
-
-https://www.theodinproject.com/lessons/nodejs-getting-started
-
-https://www.theodinproject.com/lessons/nodejs-debugging-node
-
-https://www.theodinproject.com/lessons/nodejs-basic-informational-site
-
-https://www.theodinproject.com/lessons/nodejs-introduction-to-mongodb
-
-https://www.theodinproject.com/lessons/nodejs-introduction-to-express
-
-https://www.theodinproject.com/lessons/nodejs-express-101
-
-https://www.theodinproject.com/lessons/nodejs-express-102-crud-and-mvc
-
-https://www.theodinproject.com/lessons/nodejs-mini-message-board
-
-https://www.theodinproject.com/lessons/nodejs-deployment
-
-https://www.theodinproject.com/lessons/nodejs-express-103-routes-and-controllers
-
-https://www.theodinproject.com/lessons/nodejs-express-104-view-templates
-
-https://www.theodinproject.com/lessons/nodejs-express-105-forms-and-deployment
-
-https://www.theodinproject.com/lessons/nodejs-inventory-application
-
-https://www.theodinproject.com/lessons/nodejs-authentication-basics
-
-https://www.theodinproject.com/lessons/nodejs-security-configuration
-
-https://www.theodinproject.com/lessons/nodejs-members-only
-
-https://www.theodinproject.com/lessons/nodejs-api-basics
-
-https://www.theodinproject.com/lessons/nodejs-api-security
-
-https://www.theodinproject.com/lessons/nodejs-blog-api
-
-https://www.theodinproject.com/lessons/nodejs-testing-routes-and-controllers
-
-https://www.theodinproject.com/lessons/nodejs-testing-database-operations
-
-https://www.theodinproject.com/lessons/nodejs-where-s-waldo-a-photo-tagging-app
-
-https://www.theodinproject.com/lessons/nodejs-messaging-app
-
-https://www.theodinproject.com/lessons/nodejs-odin-book
-
-https://www.theodinproject.com/lessons/nodejs-conclusion
-
 https://www.theodinproject.com/lessons/node-path-javascript-how-this-course-will-work
 
 https://www.theodinproject.com/lessons/node-path-javascript-a-quick-review
@@ -561,11 +423,15 @@ https://www.theodinproject.com/lessons/node-path-javascript-tic-tac-toe
 
 https://www.theodinproject.com/lessons/node-path-javascript-classes
 
-https://www.theodinproject.com/lessons/node-path-javascript-es6-modules
+https://www.theodinproject.com/lessons/javascript-es6-modules
 
-https://www.theodinproject.com/lessons/node-path-javascript-webpack
+https://www.theodinproject.com/lessons/node-path-javascript-npm
+
+https://www.theodinproject.com/lessons/javascript-webpack
 
 https://www.theodinproject.com/lessons/node-path-javascript-restaurant-page
+
+https://www.theodinproject.com/lessons/node-path-javascript-revisiting-webpack
 
 https://www.theodinproject.com/lessons/node-path-javascript-json
 
@@ -627,34 +493,6 @@ https://www.theodinproject.com/lessons/node-path-javascript-battleship
 
 https://www.theodinproject.com/lessons/node-path-javascript-conclusion
 
-https://www.theodinproject.com/lessons/node-path-getting-hired-how-this-course-will-work
-
-https://www.theodinproject.com/lessons/node-path-getting-hired-professional-networking
-
-https://www.theodinproject.com/lessons/node-path-getting-hired-strategy
-
-https://www.theodinproject.com/lessons/node-path-getting-hired-it-starts-with-you
-
-https://www.theodinproject.com/lessons/node-path-getting-hired-what-companies-want
-
-https://www.theodinproject.com/lessons/node-path-getting-hired-what-you-can-do-to-prepare
-
-https://www.theodinproject.com/lessons/node-path-getting-hired-building-your-personal-website
-
-https://www.theodinproject.com/lessons/node-path-getting-hired-collecting-job-leads
-
-https://www.theodinproject.com/lessons/node-path-getting-hired-qualifying-job-leads
-
-https://www.theodinproject.com/lessons/node-path-getting-hired-building-your-resume
-
-https://www.theodinproject.com/lessons/node-path-getting-hired-applying-for-web-development-jobs
-
-https://www.theodinproject.com/lessons/node-path-getting-hired-preparing-to-interview-and-interviewing
-
-https://www.theodinproject.com/lessons/node-path-getting-hired-handling-a-job-offer
-
-https://www.theodinproject.com/lessons/node-path-getting-hired-conclusion
-
 https://www.theodinproject.com/lessons/node-path-react-new-how-this-course-will-work
 
 https://www.theodinproject.com/lessons/node-path-react-new-introduction-to-react
@@ -707,6 +545,66 @@ https://www.theodinproject.com/lessons/node-path-react-new-refs-and-memoization
 
 https://www.theodinproject.com/lessons/node-path-react-conclusion
 
+https://www.theodinproject.com/lessons/nodejs-introduction-to-the-back-end
+
+https://www.theodinproject.com/lessons/nodejs-introduction-to-frameworks
+
+https://www.theodinproject.com/lessons/nodejs-introduction-what-is-nodejs
+
+https://www.theodinproject.com/lessons/nodejs-getting-started
+
+https://www.theodinproject.com/lessons/nodejs-debugging-node
+
+https://www.theodinproject.com/lessons/nodejs-basic-informational-site
+
+https://www.theodinproject.com/lessons/nodejs-environment-variables
+
+https://www.theodinproject.com/lessons/node-path-nodejs-introduction-to-express
+
+https://www.theodinproject.com/lessons/nodejs-routes
+
+https://www.theodinproject.com/lessons/nodejs-controllers
+
+https://www.theodinproject.com/lessons/nodejs-views
+
+https://www.theodinproject.com/lessons/node-path-nodejs-mini-message-board
+
+https://www.theodinproject.com/lessons/node-path-nodejs-deployment
+
+https://www.theodinproject.com/lessons/nodejs-forms-and-data-handling
+
+https://www.theodinproject.com/lessons/nodejs-installing-postgresql
+
+https://www.theodinproject.com/lessons/nodejs-using-postgresql
+
+https://www.theodinproject.com/lessons/node-path-nodejs-inventory-application
+
+https://www.theodinproject.com/lessons/node-path-nodejs-authentication-basics
+
+https://www.theodinproject.com/lessons/node-path-nodejs-members-only
+
+https://www.theodinproject.com/lessons/nodejs-prisma-orm
+
+https://www.theodinproject.com/lessons/nodejs-file-uploader
+
+https://www.theodinproject.com/lessons/nodejs-api-basics
+
+https://www.theodinproject.com/lessons/nodejs-api-security
+
+https://www.theodinproject.com/lessons/node-path-nodejs-blog-api
+
+https://www.theodinproject.com/lessons/nodejs-testing-routes-and-controllers
+
+https://www.theodinproject.com/lessons/node-path-nodejs-testing-database-operations
+
+https://www.theodinproject.com/lessons/nodejs-where-s-waldo-a-photo-tagging-app
+
+https://www.theodinproject.com/lessons/nodejs-messaging-app
+
+https://www.theodinproject.com/lessons/node-path-nodejs-odin-book
+
+https://www.theodinproject.com/lessons/nodejs-conclusion
+
 https://www.theodinproject.com/lessons/ruby-on-rails-how-this-course-will-work
 
 https://www.theodinproject.com/lessons/ruby-on-rails-introduction-to-the-back-end
@@ -731,9 +629,9 @@ https://www.theodinproject.com/lessons/ruby-on-rails-active-record-basics
 
 https://www.theodinproject.com/lessons/ruby-on-rails-migrations
 
-https://www.theodinproject.com/lessons/ruby-on-rails-basic-associations
-
 https://www.theodinproject.com/lessons/ruby-on-rails-basic-validations
+
+https://www.theodinproject.com/lessons/ruby-on-rails-basic-associations
 
 https://www.theodinproject.com/lessons/ruby-on-rails-micro-reddit
 
@@ -792,3 +690,127 @@ https://www.theodinproject.com/lessons/ruby-on-rails-websockets-and-actioncable
 https://www.theodinproject.com/lessons/ruby-on-rails-rails-final-project
 
 https://www.theodinproject.com/lessons/ruby-on-rails-conclusion
+
+https://www.theodinproject.com/lessons/ruby-how-this-course-will-work
+
+https://www.theodinproject.com/lessons/ruby-installing-ruby
+
+https://www.theodinproject.com/lessons/ruby-basic-data-types
+
+https://www.theodinproject.com/lessons/ruby-variables
+
+https://www.theodinproject.com/lessons/ruby-input-and-output
+
+https://www.theodinproject.com/lessons/ruby-conditional-logic
+
+https://www.theodinproject.com/lessons/ruby-loops
+
+https://www.theodinproject.com/lessons/ruby-arrays
+
+https://www.theodinproject.com/lessons/ruby-hashes
+
+https://www.theodinproject.com/lessons/ruby-methods
+
+https://www.theodinproject.com/lessons/ruby-debugging
+
+https://www.theodinproject.com/lessons/ruby-basic-enumerable-methods
+
+https://www.theodinproject.com/lessons/ruby-predicate-enumerable-methods
+
+https://www.theodinproject.com/lessons/ruby-nested-collections
+
+https://www.theodinproject.com/lessons/ruby-caesar-cipher
+
+https://www.theodinproject.com/lessons/ruby-sub-strings
+
+https://www.theodinproject.com/lessons/ruby-stock-picker
+
+https://www.theodinproject.com/lessons/ruby-bubble-sort
+
+https://www.theodinproject.com/lessons/ruby-object-oriented-programming
+
+https://www.theodinproject.com/lessons/ruby-project-management
+
+https://www.theodinproject.com/lessons/ruby-linting-and-rubocop
+
+https://www.theodinproject.com/lessons/ruby-tic-tac-toe
+
+https://www.theodinproject.com/lessons/ruby-mastermind
+
+https://www.theodinproject.com/lessons/ruby-files-and-serialization
+
+https://www.theodinproject.com/lessons/ruby-event-manager
+
+https://www.theodinproject.com/lessons/ruby-hangman
+
+https://www.theodinproject.com/lessons/ruby-pattern-matching
+
+https://www.theodinproject.com/lessons/ruby-blocks
+
+https://www.theodinproject.com/lessons/ruby-custom-enumerables
+
+https://www.theodinproject.com/lessons/ruby-a-very-brief-intro-to-cs
+
+https://www.theodinproject.com/lessons/ruby-recursive-methods
+
+https://www.theodinproject.com/lessons/ruby-recursion
+
+https://www.theodinproject.com/lessons/ruby-time-complexity
+
+https://www.theodinproject.com/lessons/ruby-space-complexity
+
+https://www.theodinproject.com/lessons/ruby-common-data-structures-and-algorithms
+
+https://www.theodinproject.com/lessons/ruby-linked-lists
+
+https://www.theodinproject.com/lessons/ruby-hashmap-data-structure
+
+https://www.theodinproject.com/lessons/ruby-hashmap
+
+https://www.theodinproject.com/lessons/ruby-binary-search-trees
+
+https://www.theodinproject.com/lessons/ruby-knights-travails
+
+https://www.theodinproject.com/lessons/ruby-a-deeper-look-at-git
+
+https://www.theodinproject.com/lessons/ruby-working-with-remotes
+
+https://www.theodinproject.com/lessons/ruby-using-git-in-the-real-world
+
+https://www.theodinproject.com/lessons/ruby-test-driven-development
+
+https://www.theodinproject.com/lessons/ruby-introduction-to-rspec
+
+https://www.theodinproject.com/lessons/ruby-connect-four
+
+https://www.theodinproject.com/lessons/ruby-ruby-final-project
+
+https://www.theodinproject.com/lessons/ruby-conclusion
+
+https://www.theodinproject.com/lessons/node-path-getting-hired-how-this-course-will-work
+
+https://www.theodinproject.com/lessons/node-path-getting-hired-professional-networking
+
+https://www.theodinproject.com/lessons/node-path-getting-hired-strategy
+
+https://www.theodinproject.com/lessons/node-path-getting-hired-it-starts-with-you
+
+https://www.theodinproject.com/lessons/node-path-getting-hired-what-companies-want
+
+https://www.theodinproject.com/lessons/node-path-getting-hired-what-you-can-do-to-prepare
+
+https://www.theodinproject.com/lessons/node-path-getting-hired-building-your-personal-website
+
+https://www.theodinproject.com/lessons/node-path-getting-hired-collecting-job-leads
+
+https://www.theodinproject.com/lessons/node-path-getting-hired-qualifying-job-leads
+
+https://www.theodinproject.com/lessons/node-path-getting-hired-building-your-resume
+
+https://www.theodinproject.com/lessons/node-path-getting-hired-applying-for-web-development-jobs
+
+https://www.theodinproject.com/lessons/node-path-getting-hired-preparing-to-interview-and-interviewing
+
+https://www.theodinproject.com/lessons/node-path-getting-hired-handling-a-job-offer
+
+https://www.theodinproject.com/lessons/node-path-getting-hired-conclusion

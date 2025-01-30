@@ -66,7 +66,9 @@ async function getDataFromCurrentPage(currentPageUrl) {
   });
 
   const questions = await page.evaluate(() => {
-    const questionSection = document.querySelector("#knowledge-check ul");
+    const questionSection = document.querySelector(
+      'section[data-title="knowledge-check"] ul'
+    );
     if (!questionSection) {
       return null;
     } else {
@@ -129,7 +131,18 @@ function convertToJson(data) {
 function exportJsObjectAsMarkdown(data) {
   data[0].questions;
   //
-  let markdown = "# Knowledge Check\n\n";
+  const timestamp = new Date().toLocaleString("en-US", {
+    timeZone: "UTC",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+    timeZoneName: "short",
+  });
+
+  let markdown = `# Knowledge Check\n\nThese are the knowledge check questions as of ${timestamp}\n\n`;
+
   for (let i = 0; i < data.length; i++) {
     markdown += `\n\n## ${data[i].title}\n\n`;
     if (data[i].questions === null) {
